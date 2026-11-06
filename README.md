@@ -60,3 +60,17 @@ Screenshots are in the `screenshots/` folder.
 ## Author
 
 Ian John Gitene Muturi
+
+## Screenshots
+
+### Desktop
+![Desktop home section](screenshots/desktop-home.png)
+![Desktop about section](screenshots/desktop-about.png)
+![Desktop skills section](screenshots/desktop-skills.png)
+![Desktop projects section](screenshots/desktop-projects.png)
+![Desktop projects section, second view](screenshots/desktop-projects-2.png)
+![Desktop contact section](screenshots/desktop-contact.png)
+![Desktop contact section, second view](screenshots/desktop-contact-2.png)
+
+### Mobile
+![Mobile home section](screenshots/mobile-home.png)
