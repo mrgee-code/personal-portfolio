@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Ian Muturi, a student developer from Kenya.">
+  <title>Ian Muturi | Portfolio</title>
+
+  <!-- Fonts from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- External CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ========== HEADER AND NAVIGATION ========== -->
+  <header id="top-header">
+    <h2 class="logo">Ian Muturi</h2>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ========== 1. HOME ========== -->
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="small-text">Hello, I am</p>
+        <h1>Ian John Gitene Muturi</h1>
+        <h3>Full-Stack Software Developer from Kenya</h3>
+        <p>
+          I build websites with Django and apps for Android. I like turning
+          everyday problems, like matatu fares and mobile payments, into
+          simple tools that people can use.
+        </p>
+        <a href="#projects" class="button">See my projects</a>
+        <a href="#contact" class="button button-outline">Contact me</a>
+      </div>
+
+      <div class="hero-image">
+        <img src="images/profile.jpg" alt="Profile picture of Ian Muturi" width="300" height="300">
+      </div>
+    </section>
+
+    <!-- ========== 2. ABOUT ME ========== -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p class="section-intro">
+        I am an ICT student who loves to code, learn new tools
+        and finish projects that actually work.
+      </p>
+
+      <div class="two-columns">
+
+        <div class="box">
+          <h3>Education</h3>
+          <ol>
+            <li><strong>Primary school:</strong> KCPE, where I first got interested in computers.</li>
+            <li><strong>High school:</strong> KCSE, with a focus on maths and sciences.</li>
+            <li><strong>University:</strong> Studying Information Communication and Technology at KCA University.</li>
+            <li><strong>Training:</strong> Studied Full-Stack Software Development; website and app development at eMobilis Technical Institute.</li>
+          </ol>
+        </div>
+
+        <div class="box">
+          <h3>Interests</h3>
+          <ul>
+            <li>Building web and mobile apps</li>
+            <li>Fintech and mobile money (M-Pesa)</li>
+            <li>Learning new programming tools</li>
+            <li>Group projects and team coding</li>
+            <li>Helping my family and friends with tech</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========== 3. SKILLS ========== -->
+    <section id="skills" class="dark-section">
+      <h2>Skills</h2>
+      <p class="section-intro">These are the technical skills I use most often.</p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Skill</th>
+            <th>Level</th>
+            <th>Where I used it</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>Good</td>
+            <td>This portfolio and my Django templates</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Good</td>
+            <td>Styling and responsive layouts</td>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>Good</td>
+            <td>Backend code for web apps</td>
+          </tr>
+          <tr>
+            <td>Django</td>
+            <td>Good</td>
+            <td>Romeo &amp; Juliet couples website</td>
+          </tr>
+          <tr>
+            <td>Android Development</td>
+            <td>Good</td>
+            <td>Matatu Fare Tracker and Naivas Supermarket</td>
+          </tr>
+          <tr>
+            <td>Git and GitHub</td>
+            <td>Good</td>
+            <td>Saving and sharing my source code</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- ========== 4. PROJECTS ========== -->
+    <section id="projects" class="light-section">
+      <h2>Projects</h2>
+      <p class="section-intro">Here are some of the things I have built or planned.</p>
+
+      <div class="project-list">
+
+        <article class="project-card">
+          <img src="images/romeo-and-juliet.svg" alt="Romeo and Juliet couples website banner">
+          <div class="card-text">
+            <h3>Romeo &amp; Juliet</h3>
+            <p>A website for couples to plan dates, remember special days, track shared savings and sign in with Google. It was deployed online on Render.</p>
+            <p class="tags">Django, Python, PostgreSQL, Google login</p>
+            <a href="https://github.com/mrgee-code/couples-app" class="card-link">View on GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="images/matatu-fare-tracker.svg" alt="Matatu Fare Tracker project banner">
+          <div class="card-text">
+            <h3>Matatu Fare Tracker</h3>
+            <p>An Android app where passengers share real matatu fares so everyone knows what to expect.</p>
+            <p class="tags">Android, Crowd-sourced data</p>
+            <a href="https://github.com/mrgee-code/MatatuFareTracker" class="card-link">View on GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="images/naivas-supermarket.svg" alt="Naivas Supermarket project banner">
+          <div class="card-text">
+            <h3>Naivas Supermarket</h3>
+            <p>An Android shopping app where users can browse products, add to a cart and order.</p>
+            <p class="tags">Android, E-commerce</p>
+            <a href="https://github.com/mrgee-code/ecommerceapp1" class="card-link">View on GitHub</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ========== 5. CONTACT ========== -->
+    <section id="contact" class="dark-section">
+      <h2>Contact</h2>
+      <p class="section-intro">
+        Want to work together or just say hi? Email me at
+        <a href="mailto:giteneian@gmail.com" class="email-link">giteneian@gmail.com</a>
+        or use the form below.
+      </p>
+
+      <form action="mailto:giteneian@gmail.com" method="post" enctype="text/plain">
+
+        <label for="name">Your name</label>
+        <input type="text" id="name" name="name" placeholder="Jane Wanjiku" required>
+
+        <label for="email">Your email</label>
+        <input type="email" id="email" name="email" placeholder="jane@example.com" required>
+
+        <label for="topic">What is this about?</label>
+        <select id="topic" name="topic">
+          <option>Say hello</option>
+          <option>Project idea</option>
+          <option>Job or internship</option>
+        </select>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea>
+
+        <button type="submit" class="button">Send message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <p>&copy; 2026 Ian John Gitene Muturi. Made with HTML and CSS in Kenya.</p>
+    <p><a href="#top-header">Back to top</a></p>
+  </footer>
+
+</body>
+</html>
