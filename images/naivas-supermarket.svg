@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340">
+  <rect width="600" height="340" fill="#bb1e10"/>
+  <rect x="40" y="40" width="520" height="260" rx="14" fill="none" stroke="#ffffff" stroke-opacity="0.5" stroke-width="3"/>
+  <text x="300" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="46" font-weight="bold" fill="#ffffff">Naivas Supermarket</text>
+  <text x="300" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#ffffff" fill-opacity="0.85">Android e-commerce</text>
+</svg>
