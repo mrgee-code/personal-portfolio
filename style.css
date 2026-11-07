@@ -177,8 +177,10 @@ section h2 {
   margin-bottom: 10px;
 }
 
-.hero h3 {
+.hero .job-title {
+  font-family: "Bricolage Grotesque", Arial, sans-serif;
   font-size: 24px;
+  font-weight: 600;
   margin-bottom: 20px;
 }
 
@@ -232,7 +234,7 @@ section h2 {
 
 .button:hover {
   background-color: #111111;
-  border-color: #111111;
+  border-color: transparent;
   color: #ffffff;
   transform: translateY(-4px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
@@ -247,7 +249,7 @@ section h2 {
 
 .button-outline:hover {
   background-color: #0b3d2e;
-  border-color: #0b3d2e;
+  border-color: transparent;
 }
 
 /* ===== ABOUT ===== */

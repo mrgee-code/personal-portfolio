@@ -74,3 +74,7 @@ Ian John Gitene Muturi
 
 ### Mobile
 ![Mobile home section](screenshots/mobile-home.png)
+
+### Validation
+![HTML validator result](screenshots/html-validator.png)
+![CSS validator result](screenshots/css-validator.png)
